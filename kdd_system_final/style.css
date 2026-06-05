@@ -1,0 +1,49 @@
+[data-testid="metric-container"] {
+    background-color: #1E1E1E;
+    border: 1px solid #333333;
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+}
+
+[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+.stButton > button {
+    background-color: #2563EB;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 18px;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background-color: #1D4ED8;
+    color: white;
+}
+
+.stDataFrame {
+    border-radius: 14px;
+}
+
+div[data-testid="stAlert"] {
+    border-radius: 14px;
+}
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 12px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #1F2937;
+    border-radius: 12px;
+    padding: 10px 18px;
+    color: white;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #2563EB;
+    color: white;
+}
